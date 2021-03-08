@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showflag = true
+    @State var end = false
+    @State var score = 0
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            if showflag{
+                LandingView(showflag: self.$showflag)
+            }
+            else{
+                if end {
+                    EndingView(end: self.$end, score: self.$score)
+                }
+                else{
+                    HomeView(end: self.$end, score: self.$score)
+                }
+            }
+        }
     }
 }
 

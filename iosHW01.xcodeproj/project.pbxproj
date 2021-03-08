@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		879AD63525F571BC00DE49A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AD63425F571BC00DE49A6 /* HomeView.swift */; };
+		879AD63825F5721300DE49A6 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AD63725F5721300DE49A6 /* LandingView.swift */; };
+		879AD63B25F5755A00DE49A6 /* EndingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AD63A25F5755A00DE49A6 /* EndingView.swift */; };
 		87EB317225F3A08E00139EE5 /* iosHW01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB317125F3A08E00139EE5 /* iosHW01App.swift */; };
 		87EB317425F3A08E00139EE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB317325F3A08E00139EE5 /* ContentView.swift */; };
 		87EB317625F3A09000139EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EB317525F3A09000139EE5 /* Assets.xcassets */; };
 		87EB317925F3A09000139EE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EB317825F3A09000139EE5 /* Preview Assets.xcassets */; };
+		87EB318225F41B8F00139EE5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB318125F41B8F00139EE5 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		879AD63425F571BC00DE49A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		879AD63725F5721300DE49A6 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		879AD63A25F5755A00DE49A6 /* EndingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingView.swift; sourceTree = "<group>"; };
 		87EB316E25F3A08E00139EE5 /* iosHW01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosHW01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EB317125F3A08E00139EE5 /* iosHW01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosHW01App.swift; sourceTree = "<group>"; };
 		87EB317325F3A08E00139EE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87EB317525F3A09000139EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87EB317825F3A09000139EE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87EB317A25F3A09000139EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EB318125F41B8F00139EE5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 			children = (
 				87EB317125F3A08E00139EE5 /* iosHW01App.swift */,
 				87EB317325F3A08E00139EE5 /* ContentView.swift */,
+				879AD63425F571BC00DE49A6 /* HomeView.swift */,
+				879AD63725F5721300DE49A6 /* LandingView.swift */,
+				879AD63A25F5755A00DE49A6 /* EndingView.swift */,
 				87EB317525F3A09000139EE5 /* Assets.xcassets */,
 				87EB317A25F3A09000139EE5 /* Info.plist */,
 				87EB317725F3A09000139EE5 /* Preview Content */,
+				87EB318125F41B8F00139EE5 /* Question.swift */,
 			);
 			path = iosHW01;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				87EB317425F3A08E00139EE5 /* ContentView.swift in Sources */,
+				879AD63825F5721300DE49A6 /* LandingView.swift in Sources */,
+				879AD63525F571BC00DE49A6 /* HomeView.swift in Sources */,
 				87EB317225F3A08E00139EE5 /* iosHW01App.swift in Sources */,
+				87EB318225F41B8F00139EE5 /* Question.swift in Sources */,
+				879AD63B25F5755A00DE49A6 /* EndingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
